@@ -1,38 +1,111 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+margin-top: 4rem;
+background-color: #c5c8e2;
+}
+
+
+.header{
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to right,#000428,#004e92);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+}
+.navbar{
+  margin-right: 2rem;
+}
+.nav-link{
+  margin: 0rem 1.2rem 0rem 0.4rem;
+  color: white!important;
+}
+.navbar-brand{
+  color: white!important;
+  font-size: 2rem;
+  line-height: 0;
+}
+.navbar-brand strong{
+  /* color: black!important; */
+  font-family: 'Satisfy', cursive;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5rem;
+  color: black;
+}
+h1 strong{
+  font-weight: 800;
+  font-family: 'Satisfy', cursive;
+}
+.card{
+  max-width: 33rem;
+  /* height: 36.5rem; */
+  padding: 0;
+  margin: 2rem;
+  transition:  150ms ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px 1px #70777d;
+}
+
+.card img{
+  height: 15rem;
+  /* width: 32.5rem; */
+}
+
+.card-body{
+  padding: 5px 10px 0px 10px;
+}
+
+.card-body a{
+  margin: 1rem 0rem 1.5rem 1rem;
+  background-color: #000428;
+}
+
+.card-body a:hover{
+  background-color: #004e92;
+  border-color: #004e92;
+  box-shadow: 1px 1px 6px 1px #000428;
+}
+
+.btn-dark{
+  margin: 1rem 0rem 1.5rem 1rem;
+  background-color: #004e92;
+  border-color: #004e92;
+
+}
+
+.btn-dark:hover{
+  background-color: #000428;
+  border-color: #000428;
+  box-shadow: 1px 1px 6px 1px #004e92;
+}
+
+.text-center img{
+  margin-top: 5rem;
+}
+.span{
+  background-color: #000428;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.badge{
+  height: 2rem;
+  border-radius: 0;
+  background-color: #000428;
+  
 }
+.badge p{
+  text-align: center;
+  padding-top: 5.6px;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
