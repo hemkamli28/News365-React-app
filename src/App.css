@@ -64,9 +64,29 @@ h1 strong{
   padding: 5px 10px 0px 10px;
 }
 
-.card-body a{
+.card a{
   margin: 1rem 0rem 1.5rem 1rem;
   background-color: #000428;
+}
+.d-flex a{
+  background-color: #000428;
+  color: white;
+} 
+
+.d-flex a:hover{
+  background-color:  #c5c8e2;
+  /* border-radius: 0; */
+  color: black;
+} 
+
+.d-flex input{
+  background-color: transparent;
+  border-bottom-left-radius: 0px ;
+  border-bottom-right-radius: 0px ;
+  border: 1px solid white;
+  border-left: #004e92 ;
+  border-top: #004e92 ;
+  border-right: #004e92 ;
 }
 
 .card-body a:hover{

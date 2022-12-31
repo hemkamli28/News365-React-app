@@ -8,7 +8,7 @@ export class Navbar extends Component {
     return (
       <>
       <section className="header fixed-top">
-            <nav className="navbar navbar-expand-sm" >
+            <nav className="navbar navbar-expand-lg" >
         <div className="container-fluid">
                <Link className="navbar-brand" to="/">News <strong>365</strong></Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +19,7 @@ export class Navbar extends Component {
                           <li className="nav-item">
                                 <Link className="nav-link active " aria-current="page" to="/">Home</Link>
                           </li>
-                          <li className="nav-item">
-                                <Link className="nav-link " to="/about">About Us</Link>
-                          </li>
+                          
                           <li className="nav-item">
                                 <Link className="nav-link " to="/business">Business</Link>
                           </li>
@@ -43,6 +41,9 @@ export class Navbar extends Component {
                           <li className="nav-item">
                                 <Link className="nav-link " to="/technology">Technology</Link>
                           </li>
+                          {/* <li className="nav-item">
+                          
+                          </li> */}
                       </ul>
       
                   </div>
