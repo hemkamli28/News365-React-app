@@ -1,10 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import {Link} from 'react-router-dom'
 
-export class Navbar extends Component {
-  //   static propTypes = {}
-
-  render() {
+const Navbar =() => {
     return (
       <>
       <section className="header fixed-top">
@@ -51,8 +48,7 @@ export class Navbar extends Component {
               </nav>
       </section>
       </>
-    );
-  }
+    )
 }
 
 export default Navbar;
